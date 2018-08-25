@@ -8,3 +8,4 @@
   // var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
 
   // Or with jQuery
+

@@ -1,15 +1,20 @@
 *{
-	font-family:"Courier New", Courier, monospace;
+	font-family:Arial;
 	box-sizing: border-box;
 }
 body{
 	margin: 0;
 	font-size: 17px;
-
+	background-color: #f1f1f1;
 }
+main{
+	padding: 0px 50px 50px 25px;
+}
+
 .nav-design{
 	background-color:#ff8a00;
 	opacity: 0.8;
+
 }
 .logo{
 	margin-left: 20px;
@@ -56,9 +61,7 @@ a{
 	width:100%; 
 
 }
-::-webkit-scrollbar { 
-	display: none; 
-}
+
 .card-login{
 	position: center;
 	margin-right:20px;
@@ -71,6 +74,20 @@ a{
 .image-position{
 	position: relative;
 }
+.tab-position{
+	margin-top: 60px;
+	background-color:#ff8a00;
+}
+.active-link{
+	background-color: #039415;
+}
+.radio{
+	margin-top: 50px;
+}
+.sel{
+	margin-bottom: 10px;
+}
+
 
 
 

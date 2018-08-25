@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OJTSYS</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Portfolio">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Raniel Lambaco and Mart Macion">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/try.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+	<div class="navbar-fixed">
+		<nav class="nav-design">
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo"><img src="assets/gcccs.png" class="logo"></a>
+				<a href="#" data-target="slide-out" class="sidenav-trigger sidenav-trig"><i class="material-icons">menu</i></a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="sass.html">About</a></li>
+					<li><a href="badges.html">Skills</a></li>
+					<li><a href="collapsible.html">Projects</a></li>
+					<li><a href="#">Contact Me!</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<ul id="slide-out" class="sidenav">
+		<li><div class="user-view">
+			<div class="background">
+				<img src="assets/bg.jpg" class="opacity-userview">
+			</div>
+			<a href="#"><img class="circle" src="assets/ran.jpg"></a>
+			<a href="#"><span class="white-text name">Raniel Lambaco</span></a>
+			<a href="#"><span class="white-text email">leinar1717@gmail.com</span></a>
+		</div></li>
+		<li><a href="#"><i class="material-icons">home</i>Home</a></li>
+		<li><a href="#"><i class="material-icons">info</i>About</a></li>
+		<li><a href="#">Skills</a></li>
+		<li><a href="#">Projects</a></li>
+		<li><a href="#">Contact Me</a></li>
+	</ul>
+	<main>
+		<div class="container">
+			<div class="row">
+				<section>
+					<div class="wizard">
+						<div class="wizard-inner">
+							<div class="connecting-line"></div>
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" class="active">
+									<a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Step 1">
+										<span class="round-tab">
+											<i class="glyphicon glyphicon-user"></i>
+										</span>
+									</a>
+								</li>
+								<li role="presentation" class="disabled">
+									<a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="Step 2">
+										<span class="round-tab">
+											<i class="glyphicon glyphicon-education"></i>
+										</span>
+									</a>
+								</li>
+								<li role="presentation" class="disabled">
+									<a href="#step3" data-toggle="tab" aria-controls="step3" role="tab" title="Step 3">
+										<span class="round-tab">
+											<i class="glyphicon glyphicon-briefcase"></i>
+										</span>
+									</a>
+								</li>
+								<li role="presentation" class="disabled">
+									<a href="#complete" data-toggle="tab" aria-controls="complete" role="tab" title="Complete">
+										<span class="round-tab">
+											<i class="glyphicon glyphicon-flag"></i>
+										</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<form role="form">
+							<div class="tab-content">
+								<div class="tab-pane active" role="tabpanel" id="step1">
+									<h3>Personal Information</h3>
+									<div class="row">
+										<form class="col s12">
+											<div class="row">
+												<div class="input-field col s4">
+													<input id="fname" type="text" class="validate">
+													<label for="fname">First Name</label>
+												</div>
+												<div class="input-field col s4">
+
+													<input id="mname" type="tel" class="validate">
+													<label for="mname">Middle Name</label>
+												</div>
+												<div class="input-field col s4">
+													<input id="lname" type="tel" class="validate">
+													<label for="lname">Last Name</label>
+												</div>
+											</div>
+											<div class="row">
+												<div class="input-field col s4">
+													<label>Date of Birth</label>
+													<input id="db" type="text" class="datepicker">
+												</div>
+												<div class="input-field col s4">
+													<label>Place of Birth</label>
+													<input id="pb" type="text" class="validate">
+												</div>
+												<div class="col s4">
+													<label>
+														<input class="with-gap" name="group3" type="radio"  />
+														<span>Male</span>
+													</label>
+													<label>
+														<input class="with-gap" name="group3" type="radio" />
+														<span>Female</span>
+													</label>
+												</div>
+											</div>
+											<div class="row">
+												<div class="input-field col s6">
+													<input id="cit" type="text" class="validate">
+													<label for="cit">Citizenship</label>
+												</div>
+												<div class="input-field col s6">
+													<select class="browser-default">
+														<option value="" disabled selected>Civil Status</option>
+														<option value="Single">Single</option>
+														<option value="Married">Married</option>
+														<option value="Widowed">Widowed</option>
+													</select>		
+												</div>
+											</div>
+											<div class="row">
+												<div class="input-field col s6">
+													<input id="mob" type="number" class="validate" max="11">
+													<label for="mob">Mobile Number</label>
+												</div>
+												<div class="input-field col s6">
+													<input id="tel" type="number" class="validate" max="7">
+													<label for="tel">Telephone Number</label>
+												</div>
+											</div>
+											<div class="row">
+												<div class="input-field col s12">
+													<label for="add">Address</label>
+													<textarea id="add"></textarea>
+												</div>
+											</div>
+											<div class="row">
+												<div class="input-field col s12">
+													<label for="obj">Objective</label>
+													<textarea id="obj"></textarea>
+												</div>
+											</div>
+										</form>
+									</div>
+									<ul class="list-inline pull-right">
+										<li><button type="button" class="btn btn-primary next-step">Save and continue</button></li>
+									</ul>
+								</div>
+								<div class="tab-pane" role="tabpanel" id="step2">
+									<h3>Educational Background</h3>
+									<div class="row">
+										<div class="input-field col s12">
+											<span>Highest Educational Attainment</span>
+											<textarea></textarea>
+										</div>
+										<div class="input-field col s12">
+											<span>School / University</span>
+											<textarea></textarea>
+										</div>
+										<div class="input-field col s12">
+											<span>Program</span>
+											<textarea></textarea>
+										</div>
+										<div class="row">
+
+											<div class="input-field col s5">
+												<span>From</span>
+												<input type="text" class="datepicker">
+											</div>
+											<div class="input-field col s5">
+												<span>To</span>
+												<input type="text" class="datepicker">
+											</div>
+											<div class="col s2">
+												<p>
+													<label>
+														<input type="checkbox" />
+														<span class="radio">I've Graduated</span>
+													</label>
+												</p> 
+											</div>
+										</div>
+										<div class="row">
+											<div class="input-field col s12">
+												<span>Accomplishments or description</span>
+												<textarea placeholder="eg. Valeditorian, Magna Cum Laude"></textarea>
+											</div>
+										</div>
+
+									</div>
+									<ul class="list-inline pull-right">
+										<li><button type="button" class="btn btn-default prev-step">Previous</button></li>
+										<li><button type="button" class="btn btn-primary next-step">Save and continue</button></li>
+									</ul>
+								</div>
+								<div class="tab-pane" role="tabpanel" id="step3">
+									<div class="row">
+										<h3>Work Experience</h3>
+										<div class="col s6">
+											<span>Position or Role</span>
+											<textarea></textarea>
+										</div>
+										<div class="col s6">
+											<span>Company Name</span>
+											<textarea></textarea>
+										</div>
+									</div>
+									<div class="row">
+										<div class="input-field col s5">
+											<span>From</span>
+											<input type="text" class="datepicker">
+										</div>
+										<div class="input-field col s5">
+											<span>To</span>
+											<input type="text" class="datepicker">
+										</div>
+										<div class="col s2">
+											<p>
+												<label>
+													<input type="checkbox" />
+													<span class="radio">Still Working Here</span>
+												</label>
+											</p> 
+										</div>
+									</div>
+									<h4>List Down Your Skills</h4>
+									<div class="row">
+										<div class="col s6">
+											<input type="text" class="validate" placeholder="eg. Responsive Design,etc">
+										</div>
+										<div class="col s6">
+											<div class="input-field col s6">
+												<select class="browser-default sel">
+													<option value="" disabled selected>Civil Status</option>
+													<option value="Beginner">Beginner</option>
+													<option value="Average">Average</option>
+													<option value="Skilled">Skilled</option>
+													<option value="Expert">Expert</option>
+												</select>		
+											</div>
+										</div>
+									</div>
+									<ul class="list-inline pull-right">
+										<li><button type="button" class="btn btn-default prev-step">Previous</button></li>
+										<li><button type="button" class="btn btn-default next-step">Skip</button></li>
+										<li><button type="button" class="btn btn-primary btn-info-full next-step">Save and continue</button></li>
+									</ul>
+								</div>
+								<div class="tab-pane" role="tabpanel" id="complete">
+									<h3>Complete</h3>
+									<p>You have successfully completed all steps.</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</form>
+					</div>
+				</section>
+			</div>
+		</div>
+	</main>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/try.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+</html>
